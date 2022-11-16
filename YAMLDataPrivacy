@@ -1,0 +1,35 @@
+"":
+  MySchema:
+      AnimalShelter:
+          max_ids: 1
+          age_upon_outcome:
+              private_id: True
+              type: string
+          animal_id_ouctome:
+              type: string
+          outcome_subtype:
+              type: string
+          outcome_type:
+              type: string
+          sex_upon_outcome:
+              type: string              
+          age_upon_outcome_(days):
+              type: int
+          age_upon_outcome_(years):
+              type: float
+          outcome_datetime:
+              type: string
+          outcome_weekday:
+              type: string
+          outcome_number:
+              type: float
+          age_upon_intake:
+              type: string
+          animal_id_intake:
+              type: string
+          breed:
+              type: string
+          color:
+              type: string
+          found_location:
+              type: string       
