@@ -6,6 +6,7 @@
               type: string
           animal_id_outcome:
               type: string
+              private_id: True
           outcome_subtype:
               type: string
           outcome_type:
