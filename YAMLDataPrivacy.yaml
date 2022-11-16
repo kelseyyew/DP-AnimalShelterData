@@ -31,4 +31,20 @@
           color:
               type: string
           found_location:
-              type: string       
+              type: string
+          intake_condition:
+              type: string
+          intake_type:
+              type: string
+          sex_upon_intake:
+              type: string
+          age_upon_intake_(days):
+              type: int
+          age_upon_intake_(years):
+              type: float
+          intake_datetime:
+              type: string
+          intake_weekday:
+              type: string
+          time_in_shelter_days:
+              type: float
