@@ -3,9 +3,8 @@
       AnimalShelter:
           max_ids: 1
           age_upon_outcome:
-              private_id: True
               type: string
-          animal_id_ouctome:
+          animal_id_outcome:
               type: string
           outcome_subtype:
               type: string
