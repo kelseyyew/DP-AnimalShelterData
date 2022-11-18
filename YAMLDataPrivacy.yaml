@@ -2,7 +2,6 @@
   MySchema:
       AnimalShelter:
           censor_dims: False
-          max_ids: 1
           age_upon_outcome:
               type: string
           animal_id_outcome:
