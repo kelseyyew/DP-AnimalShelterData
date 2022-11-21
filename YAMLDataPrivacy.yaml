@@ -51,4 +51,4 @@
           time_in_shelter_days:
               type: float
               lower: 0
-              upper: 4000
+              upper: 40000
