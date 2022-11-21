@@ -2,6 +2,7 @@
   MySchema:
       AnimalShelter:
           censor_dims: False
+          clamp_counts: True
           max_ids: 6
           age_upon_outcome:
               type: string
@@ -52,3 +53,7 @@
               type: float
               lower: 0
               upper: 40000
+          intake_month:
+              type: int
+              lower: 1
+              upper: 12
